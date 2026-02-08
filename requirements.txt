@@ -1,0 +1,9 @@
+streamlit
+langchain-groq
+langchain-huggingface
+langchain-community
+faiss-cpu
+PyPDF2
+networkx
+scikit-learn
+sentence-transformers
