@@ -17,7 +17,7 @@ from pypdf import PdfReader
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitter import RecursiveCharacterTextSplitter
 #except ImportError:
 #   st.error("⚠️ Missing Libraries. Please run: pip install langchain-groq langchain-huggingface faiss-cpu pypdf2")
 
