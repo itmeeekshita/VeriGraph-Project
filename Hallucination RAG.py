@@ -10,16 +10,16 @@ try:
 except ImportError:
     pass
 
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 
 # Robust Imports
-try:
-    from langchain_groq import ChatGroq
-    from langchain_huggingface import HuggingFaceEmbeddings
-    from langchain_community.vectorstores import FAISS
-    from langchain.text_splitter import RecursiveCharacterTextSplitter
-except ImportError:
-    st.error("⚠️ Missing Libraries. Please run: pip install langchain-groq langchain-huggingface faiss-cpu pypdf2")
+#try:
+from langchain_groq import ChatGroq
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+#except ImportError:
+#   st.error("⚠️ Missing Libraries. Please run: pip install langchain-groq langchain-huggingface faiss-cpu pypdf2")
 
 # --- 2. SESSION STATE INITIALIZATION ---
 if "messages" not in st.session_state:

@@ -3,7 +3,7 @@ langchain-groq
 langchain-huggingface
 langchain-community
 faiss-cpu
-PyPDF2
+pypdf
 networkx
 scikit-learn
 sentence-transformers
